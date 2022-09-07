@@ -10,7 +10,7 @@ print(img[100:110, 200:210])
 ##    for x in range(200, 300):
 ##        img[y, x] = 0
 
-img[100:400, 200:300] = 0 
+img[100:400, 200:300] = 255 
 
 cv2.imshow('img', img)
 cv2.waitKey()

@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 import matplotlib.animation as animation
 
 # 프로그램 시작    
-cap = cv2.VideoCapture(0)
+cap = cv2.VideoCapture('./data/vtest.avi')
 fig = plt.figure(figsize=(10, 6)) # fig.set_size_inches(10, 6)
 fig.canvas.manager.set_window_title('Video Capture')
 plt.axis('off')

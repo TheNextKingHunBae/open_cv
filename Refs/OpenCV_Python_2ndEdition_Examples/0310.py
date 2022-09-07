@@ -2,6 +2,7 @@
 import numpy as np
 import cv2
 
+
 width, height = 512, 512
 x, y, R = 256, 256, 50
 direction = 0 # right
@@ -45,7 +46,8 @@ while True:
         y = height - R
         direction = 3
         
-# 지우고, 그리기        
+# 지우고, 그리기  
+      
     img = np.zeros((width, height,3), np.uint8) + 255 # 지우기
     cv2.circle(img, (x, y), R, (0, 0, 255), -1) 
     cv2.imshow('img', img)

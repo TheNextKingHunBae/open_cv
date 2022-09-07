@@ -4,7 +4,7 @@ import numpy as np
 
 img = np.zeros(shape=(512,512,3), dtype=np.uint8) + 255
 
-pts1 = np.array([[100, 100], [200, 100], [200, 200], [100, 200]])
+pts1 = np.array([[100, 300], [200, 300], [200, 400], [100, 400]])
 pts2 = np.array([[300, 200], [400, 100], [400, 200]])
 
 cv2.fillConvexPoly(img, pts1, color=(255, 0, 0))

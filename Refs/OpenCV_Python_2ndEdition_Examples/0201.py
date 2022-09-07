@@ -4,7 +4,7 @@ import numpy as np
 
 imageFile = './data/lena.jpg'
 img  = cv2.imread(imageFile)    # cv2.IMREAD_COLOR
-img2 = cv2.imread(imageFile, 0) # cv2.IMREAD_GRAYSCALE
+img2 = cv2.imread(imageFile, 1) # cv2.IMREAD_GRAYSCALE
 
 ##encode_img = np.fromfile(imageFile, np.uint8)
 ##img = cv2.imdecode(encode_img, cv2.IMREAD_UNCHANGED)
